@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "UnitConverterApi.Controllers.ConversionHistoryController",
+    "Method": "GetConversionHistory",
+    "RelativePath": "api/ConversionHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitConverterApi.Controllers.ConversionHistoryController",
+    "Method": "SaveConversionHistory",
+    "RelativePath": "api/ConversionHistory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "history",
+        "Type": "UnitConverterApi.Models.ConversionHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitConverterApi.Controllers.UnitController",
+    "Method": "GetUnitCategories",
+    "RelativePath": "api/Unit/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitConverterApi.Controllers.UnitController",
+    "Method": "GetConversionRate",
+    "RelativePath": "api/Unit/conversion/{fromUnitId}/{toUnitId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fromUnitId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "toUnitId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitConverterApi.Controllers.UnitController",
+    "Method": "GetUnitsByCategory",
+    "RelativePath": "api/Unit/units/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
